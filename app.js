@@ -1,5 +1,4 @@
-// Exchange Rate api
-// https://api.exchangerate-api.com/v4/latest/
+
 
 const currencyElement_one = document.getElementById('currency-one');
 const currencyElement_two = document.getElementById('currency-two');
@@ -9,7 +8,7 @@ const amountElement_two = document.getElementById('amount-two');
 const rateElement = document.getElementById('rate');
 const swap = document.getElementById('swap');
 
-// Adding the api link
+
 
 function calculate(){
     const currency_one = currencyElement_one.value;
@@ -24,7 +23,7 @@ function calculate(){
     });
 }
 
-// Add event listener
+
 
 currencyElement_one.addEventListener('change', calculate);
 currencyElement_two.addEventListener('change', calculate);
